@@ -5,14 +5,14 @@ description: Projects that I contributed to: TinyWeatherForecastGermany
 
 # Projects
 
-Projects that I contributed to:
+:material-open-source-initiative: Projects that I contributed to:
 
 ## [**TinyWeatherForecastGermany (TWFG)**](https://tinyweatherforecastgermanygroup.gitlab.io/index/index.html)
 
 !!! info "about"
     An android open source `java` weather forecast app focused on Germany using open data provided by Deutscher Wetterdienst (DWD).
 
-**Maintainer**: Pawel Dube (@Starfish)
+**Maintainer**: Pawel Dube ([@Starfish](https://codeberg.org/Starfish))
 
 [:material-git: code repository](https://codeberg.org/Starfish/TinyWeatherForecastGermany/){ .md-button }
 
@@ -43,8 +43,22 @@ Translations of TinyWeatherGermany are managed on the weblate[^2] instance maint
 *[DWD]: Deutscher Wetterdienst
 *[TWFG]: TinyWeatherForecastGermany
 
-## Hypatia
+## [Hypatia](https://gitlab.com/divested-mobile/hypatia)
 
-An open source android virus scanner app using signatures from several open sources.
+!!! info "about"
+    An open source android `java` virus scanner app using signatures from several open sources.
 
-My contribution: the  French Translation
+Maintainer: Tad ([@IratePorcupine](https://gitlab.com/IratePorcupine))
+
+[:simpleicons-fdroid: F-Droid page](https://f-droid.org/packages/us.spotco.malwarescanner/){ .md-button }
+
+### Translations
+
+* French[^3]
+* German
+* Italian
+* Portuguese
+* Spanish
+* Russian
+
+[^3]: My contribution :grin:
