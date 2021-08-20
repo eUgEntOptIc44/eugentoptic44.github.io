@@ -1,0 +1,74 @@
+site_name: Jean-Luc Tibaux (@eugenoptic)
+
+nav:
+    - Projects: index.md
+
+theme:
+  name: material
+  fonts: false
+  features:
+   - navigation.instant
+   - navigation.tabs
+   - navigation.tracking
+   - navigation.sections
+   - navigation.indexes
+   - navigation.top
+   - toc.integrate
+  palette:
+   - media: "(prefers-color-scheme: light)"
+     scheme: default
+     accent: teal
+     primary: blue
+     toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+   - media: "(prefers-color-scheme: dark)"
+     scheme: slate
+     primary: blue
+     accent: teal
+     toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+plugins:
+   - search:
+      lang:
+        - en
+        - de
+   - minify:
+      minify_html: true
+      minify_js: true
+      htmlmin_opts:
+        remove_comments: true
+
+markdown_extensions:
+   - toc:
+      toc_depth: 3
+      permalink: true
+      slugify: !!python/name:pymdownx.slugs.uslugify
+   - attr_list
+   - pymdownx.highlight
+   - pymdownx.superfences
+   - pymdownx.tabbed
+   - footnotes
+   - pymdownx.critic
+   - pymdownx.betterem:
+      smart_enable: all
+   - pymdownx.caret
+   - pymdownx.mark
+   - pymdownx.tilde
+   - pymdownx.smartsymbols
+   - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+   - abbr
+   - admonition
+   - pymdownx.details
+   - pymdownx.arithmatex:
+      generic: true
+   - pymdownx.tasklist:
+      custom_checkbox: true
+   - meta
+   - def_list
+
+copyright: Copyright &copy; 2021 Jean-Luc Tibaux
