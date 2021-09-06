@@ -1,6 +1,6 @@
 ---
 title: Projects - Jean-Luc Tibaux
-description: Projects that I contributed to: TinyWeatherForecastGermany
+description: Projects that I contributed to: TinyWeatherForecastGermany, Hypatia, Currencies
 ---
 
 # Projects
@@ -10,22 +10,25 @@ An unordered list of open source :material-open-source-initiative: projects that
 ## [TinyWeatherForecastGermany (TWFG)](https://tinyweatherforecastgermanygroup.gitlab.io/index/index.html)
 
 !!! info "about"
-    An android open source `java` weather forecast app focused on Germany using open data provided by Deutscher Wetterdienst (DWD).
+    An android open source weather forecast app written in `java` focused on Germany using open data provided by Deutscher Wetterdienst (DWD).
 
 **Maintainer**: Pawel Dube ([@Starfish](https://codeberg.org/Starfish))
 
 [:material-git: code repository](https://codeberg.org/Starfish/TinyWeatherForecastGermany/){ .md-button }
 
+[:simpleicons-fdroid: F-Droid page](https://f-droid.org/packages/de.kaffeemitkoffein.tinyweatherforecastgermany){ .md-button }
+
 [:material-home-search: searchable table of all locations -> *"areas"*](https://tinyweatherforecastgermanygroup.gitlab.io/index/areas.html)
 
 [:material-home-search: searchable table of all **stations**](https://tinyweatherforecastgermanygroup.gitlab.io/index/stations.html)
 
+[:material-frequently-asked-questions: list of Frequently asked questions (**FAQ**)](https://tinyweatherforecastgermanygroup.gitlab.io/index/index.html#faq)
 ### :octicons-mirror-24: Mirrors
 
 !!! info "note"
-    The following git repositories are updated **once daily**.
+    The following git repositories are updated **once daily** at 5am UTC.
 
-    Target: increased SEO-Scores, leading interested members of the public to the 'main' project at codeberg.org
+    Target: increased SEO-Scores, leading interested members of the public to the 'main' project at [codeberg.org](https://codeberg.org/Starfish/TinyWeatherForecastGermany/)
 
 [:material-gitlab: **GitLab** Mirror](https://gitlab.com/tinyweatherforecastgermanygroup/TinyWeatherForecastGermany)[^1]
 
@@ -33,9 +36,13 @@ An unordered list of open source :material-open-source-initiative: projects that
 
 [:material-git: **framagit** Mirror](https://framagit.org/tinyweatherforecastgermanygroup/tinyweatherforecastgermanymirror)[^1]
 
+[:simpleicons-gitea: **Gitea** Mirror](https://gitea.com/tinyweatherforecastgermanygroup/TinyWeatherForecastGermanyMirror)[^1]
+
+If you'd like to add a **new** mirror repository on a hosted GitLab, GitHub Enterprise, Gitea, Gogs instance or any other git server please get in touch with me ([@eugenoptic44](https://codeberg.org/eUgEntOptIc44)) :material-email:. 
+
 ### :material-translate: Translations
 
-Translations of TinyWeatherGermany are managed on the weblate[^2] instance maintained by Marcus Hoffmann ([@Bubu](https://bubu1.eu/)).
+Translations of **TinyWeatherForecastGermany** are managed on the **weblate**[^2] instance maintained by Marcus Hoffmann ([@Bubu](https://bubu1.eu/)).
 
 [![weblate translation status](https://weblate.bubu1.eu/widgets/tiny-weather-forecast-germany/-/multi-blue.svg "weblate translation status of TinyWeatherForecastGermany")](https://weblate.bubu1.eu/engage/tiny-weather-forecast-germany/){ loading=lazy title="weblate translation status" }
 
@@ -43,7 +50,9 @@ Translations of TinyWeatherGermany are managed on the weblate[^2] instance maint
 [^2]: an open source SaaS for community translations of apps and websites.
 
 *[DWD]: Deutscher Wetterdienst
-*[TWFG]: TinyWeatherForecastGermany
+*[TWFG]: inofficial abbreviation for TinyWeatherForecastGermany
+*[SaaS]: Software as a Service
+*[FAQ]: Frequently asked questions
 
 ## [Hypatia](https://gitlab.com/divested-mobile/hypatia)
 

@@ -1,4 +1,5 @@
 site_name: Jean-Luc Tibaux (@eugenoptic)
+site_url: https://eugentoptic44.codeberg.page
 
 nav:
     - Projects: index.md
