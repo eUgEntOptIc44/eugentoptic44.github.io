@@ -1,11 +1,11 @@
 ---
 title: Projects - Jean-Luc Tibaux
-description: Projects that I contributed to: TinyWeatherForecastGermany, Hypatia, Currencies
+description: Projects that I contribute/d to: TinyWeatherForecastGermany, Hypatia, Currencies
 ---
 
 # Projects
 
-An unordered list of open source :material-open-source-initiative: projects that I contributed to:
+An unordered list of open source :material-open-source-initiative: projects that I contribute/d to:
 
 ## [TinyWeatherForecastGermany (TWFG)](https://tinyweatherforecastgermanygroup.gitlab.io/index/index.html)
 
