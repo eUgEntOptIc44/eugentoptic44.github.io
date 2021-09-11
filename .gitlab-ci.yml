@@ -28,6 +28,7 @@ pages:
     - du -sh
     - git config user.name "eUgEntOptIc44"
     - git config user.email "eUgEntOptIc44@outlook.de"
+    - git status
     - git add *
     - git commit -m "update contents"
     - git status
