@@ -1,0 +1,37 @@
+image: python:3.9
+
+stages:
+  - deploy
+
+pages:
+  stage: deploy
+  script:
+    - uname -a
+    - apt-get --quiet update --yes
+    - apt-get install brotli || true
+    - apt-get install git || true
+    - mkdir .public
+    - pip list
+    - pip install virtualenv
+    - virtualenv venv
+    - source venv/bin/activate
+    - pip install -r requirements.txt
+    - pip list
+    - mkdocs build --site-dir .public
+    - cp -a .public/* public
+    - cp -a .public/* .
+    - ls -lsiha
+    - du -sh
+    - gzip -k -6 $(find public -type f) || true
+    - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec brotli -f -k {} \; || true
+    - du -sh
+    - git config user.name eUgEntOptIc44
+    - git config user.email eUgEntOptIc44@outlook.de
+    - git add *
+    - git commit -m "update contents"
+    - git status
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
