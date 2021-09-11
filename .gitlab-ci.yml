@@ -11,6 +11,7 @@ pages:
     - apt-get install brotli || true
     - apt-get install git || true
     - mkdir .public
+    - mkdir public
     - pip list
     - pip install virtualenv
     - virtualenv venv
@@ -25,11 +26,13 @@ pages:
     - gzip -k -6 $(find public -type f) || true
     - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec brotli -f -k {} \; || true
     - du -sh
-    - git config user.name eUgEntOptIc44
-    - git config user.email eUgEntOptIc44@outlook.de
+    - git config user.name "eUgEntOptIc44"
+    - git config user.email "eUgEntOptIc44@outlook.de"
     - git add *
     - git commit -m "update contents"
     - git status
+    - git remote add codeberg-origin "https://eUgEntOptIc44:$CODEBERGCICDPASSWORD@https://codeberg.org/eUgEntOptIc44/pages.git"
+    - git push codeberg-origin
   artifacts:
     paths:
       - public
