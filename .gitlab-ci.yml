@@ -28,12 +28,13 @@ pages:
     - du -sh
     - git config user.name "eUgEntOptIc44"
     - git config user.email "eUgEntOptIc44@outlook.de"
-    - git status
+    - git checkout main || true
+    - git status || true
     - git add * || true
-    - git commit -m "update contents"
-    - git status
-    - git remote add codeberg-origin "https://eUgEntOptIc44:$CODEBERGCICDPASSWORD@https://codeberg.org/eUgEntOptIc44/pages.git"
-    - git push codeberg-origin
+    - git commit -m "update contents" || true
+    - git status || true
+    - git remote add codeberg-origin "https://eUgEntOptIc44:$CODEBERGCICDPASSWORD@https://codeberg.org/eUgEntOptIc44/pages.git" || true
+    - git push codeberg-origin || true
   artifacts:
     paths:
       - public
