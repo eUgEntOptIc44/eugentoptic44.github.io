@@ -9,7 +9,6 @@ pages:
     - uname -a
     - apt-get --quiet update --yes
     - apt-get install brotli || true
-    - apt-get install git || true
     - mkdir .public
     - mkdir public
     - pip list
@@ -30,10 +29,10 @@ pages:
     - git config user.email "eUgEntOptIc44@outlook.de"
     - git checkout main || true
     - git status || true
-    - git add * || true
+    - git add . || true
     - git commit -m "update contents" || true
     - git status || true
-    - git remote add codeberg-origin "https://eUgEntOptIc44:$CODEBERGCICDPASSWORD@https://codeberg.org/eUgEntOptIc44/pages.git" || true
+    - git remote add codeberg-origin "https://eUgEntOptIc44:$CODEBERGCICDPASSWORD@codeberg.org/eUgEntOptIc44/pages.git" || true
     - git push codeberg-origin || true
   artifacts:
     paths:
