@@ -8,16 +8,16 @@ description: Projects that I contribute/d to: TinyWeatherForecastGermany, Hypati
 An unordered list of open source :material-open-source-initiative: projects that I contribute/d to:
 
 !!! help "shortcuts"
-    Type ++s++ or ++f++ to **search** this site.
-    Type ++p++ or ++,++ to go the **previous** page.
-    Type ++n++ or ++.++ to go the **next** page.
+    Type ++s++ or ++f++ to :octicons-search-16: **search** this site.
+    Type ++p++ or ++comma++ to go the :material-skip-previous: **previous** page.
+    Type ++n++ or ++period++ to go the **next** :material-skip-next: page.
 
 ## [TinyWeatherForecastGermany (TWFG)](https://tinyweatherforecastgermanygroup.gitlab.io/index/index.html)
 
 !!! info "about"
     An android open source weather forecast app written in `java` focused on Germany using open data provided by Deutscher Wetterdienst (DWD).
 
-**Maintainer**: Pawel Dube ([@Starfish](https://codeberg.org/Starfish))
+**Maintainer**: Pawel Dube ([@Starfish](https://codeberg.org/Starfish)) :octicons-star-16: :material-fish:
 
 [:material-git: code repository](https://codeberg.org/Starfish/TinyWeatherForecastGermany/){ .md-button }
 
@@ -28,6 +28,7 @@ An unordered list of open source :material-open-source-initiative: projects that
 [:material-home-search: searchable table of all **stations**](https://tinyweatherforecastgermanygroup.gitlab.io/index/stations.html)
 
 [:material-frequently-asked-questions: list of Frequently asked questions (**FAQ**)](https://tinyweatherforecastgermanygroup.gitlab.io/index/index.html#faq)
+
 ### :octicons-mirror-24: Mirrors
 
 !!! info "note"
@@ -91,11 +92,21 @@ Maintainer: [@sal0max](https://github.com/sal0max)
 
 ### :material-translate: Translations
 
-Translations of Currencies are managed on the weblate[^2] instance maintained by Marcus Hoffmann ([@Bubu](https://bubu1.eu/)).
+Translations of :material-currency-eur::material-currency-gbp::material-currency-usd::material-currency-jpy: **Currencies** are managed on the weblate[^2] instance maintained by Marcus Hoffmann ([@Bubu](https://bubu1.eu/)).
 
 [![weblate translation status](https://weblate.bubu1.eu/widgets/currencies/-/multi-blue.svg "weblate translation status of currencies")](https://weblate.bubu1.eu/engage/currencies){ loading=lazy title="weblate translation status" }
 
+
+## :octicons-database-16: Data sources
+
+* [exchangerate.host :octicons-link-external-16:](https://exchangerate.host/#/#faq) providing over 160 currencies
+* [frankfurter.app :octicons-link-external-16:](https://www.frankfurter.app/docs/) providing over 30 currencies -> data provided by the European Central Bank (ECB)
+* [fer.ee :material-github:](https://github.com/narorolib/fer): an alternative service that behaves just like [frankfurter.app](https://www.frankfurter.app/docs/)
+
+All sources rely (partialy) on the ECB see [here for more information](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html) on their data and usage conditions.
+
 *[DWD]: Deutscher Wetterdienst, the German national weather agency similar to NOAA in the US
+*[ECB]: European Central Bank
 *[TWFG]: inofficial abbreviation for Tiny Weather Forecast Germany
 *[SaaS]: Software as a Service
 *[FAQ]: Frequently asked questions
