@@ -33,7 +33,7 @@ pages:
     - git commit -m "update contents" || true
     - git status || true
     - git remote add codeberg-origin "https://eUgEntOptIc44:$CODEBERGCICDPASSWORD@codeberg.org/eUgEntOptIc44/pages.git" || true
-    - git push codeberg-origin || true
+    - git push -f codeberg-origin || true
   artifacts:
     paths:
       - public
