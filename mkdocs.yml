@@ -1,8 +1,11 @@
-site_name: Jean-Luc Tibaux (@eugenoptic)
+site_name: Jean-Luc Tibaux (@eUgEntOptIc44)
 site_url: https://eugentoptic44.codeberg.page
+repo_url: https://gitlab.com/eUgEntOptIc44/eUgEntOptIc44.gitlab.io
+edit_uri: ""
 
 nav:
     - Projects: index.md
+    - Snippets: snippets.md
 
 theme:
   name: material
@@ -30,6 +33,9 @@ theme:
      toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+  custom_dir: overrides
+  icon:
+     repo: fontawesome/brands/gitlab
 
 plugins:
    - search:
@@ -41,12 +47,18 @@ plugins:
       minify_js: true
       htmlmin_opts:
         remove_comments: true
+   - git-revision-date-localized:
+      type: datetime
+      locale: en # remove this when using i18n plugin for translations
+      enable_creation_date: true
 
 markdown_extensions:
    - toc:
       toc_depth: 3
       permalink: true
       slugify: !!python/name:pymdownx.slugs.uslugify
+   - abbr
+   - admonition
    - attr_list
    - pymdownx.highlight
    - pymdownx.superfences
@@ -65,13 +77,15 @@ markdown_extensions:
       options:
        custom_icons:
         - overrides/.icons
-   - abbr
-   - admonition
    - pymdownx.details
-   - pymdownx.arithmatex:
+   - pymdownx.arithmatex: # preserve LaTex code -> requires including MathJax -> https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/
       generic: true
-   - pymdownx.tasklist:
+   - pymdownx.tasklist: # needs extra css -> https://facelessuser.github.io/pymdown-extensions/extensions/tasklist/
       custom_checkbox: true
+   - pymdownx.magiclink # recognize links in plaintext
+   - pymdownx.keys # to display keyboard keys
+   - pymdownx.progressbar # needs extra css -> https://facelessuser.github.io/pymdown-extensions/extensions/progressbar/
+   - pymdownx.escapeall # escape ALL non standard chars -> https://facelessuser.github.io/pymdown-extensions/extensions/escapeall/
    - meta
    - def_list
 

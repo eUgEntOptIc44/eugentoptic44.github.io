@@ -3,9 +3,14 @@ title: Projects - Jean-Luc Tibaux
 description: Projects that I contribute/d to: TinyWeatherForecastGermany, Hypatia, Currencies
 ---
 
-# Projects
+# :octicons-project-24: Projects
 
 An unordered list of open source :material-open-source-initiative: projects that I contribute/d to:
+
+!!! help "shortcuts"
+    Type ++s++ or ++f++ to **search** this site.
+    Type ++p++ or ++,++ to go the **previous** page.
+    Type ++n++ or ++.++ to go the **next** page.
 
 ## [TinyWeatherForecastGermany (TWFG)](https://tinyweatherforecastgermanygroup.gitlab.io/index/index.html)
 
@@ -38,7 +43,7 @@ An unordered list of open source :material-open-source-initiative: projects that
 
 [:simpleicons-gitea: **Gitea** Mirror](https://gitea.com/tinyweatherforecastgermanygroup/TinyWeatherForecastGermanyMirror)[^1]
 
-If you'd like to add a **new** mirror repository on a hosted GitLab, GitHub Enterprise, Gitea, Gogs instance or any other git server please get in touch with me ([@eugenoptic44](https://codeberg.org/eUgEntOptIc44)) :material-email:. 
+If you'd like to add a **new** mirror repository on a hosted GitLab, GitHub Enterprise, Gitea, Gogs instance or any other git server please get in touch with me ([@eUgEntOptIc44](https://codeberg.org/eUgEntOptIc44)) :material-email:. 
 
 ### :material-translate: Translations
 
@@ -48,11 +53,6 @@ Translations of **TinyWeatherForecastGermany** are managed on the **weblate**[^2
 
 [^1]: maintained by myself using a scheduled GitLab CI/CD job :rocket:
 [^2]: an open source SaaS for community translations of apps and websites.
-
-*[DWD]: Deutscher Wetterdienst
-*[TWFG]: inofficial abbreviation for TinyWeatherForecastGermany
-*[SaaS]: Software as a Service
-*[FAQ]: Frequently asked questions
 
 ## [Hypatia](https://gitlab.com/divested-mobile/hypatia)
 
@@ -94,3 +94,8 @@ Maintainer: [@sal0max](https://github.com/sal0max)
 Translations of Currencies are managed on the weblate[^2] instance maintained by Marcus Hoffmann ([@Bubu](https://bubu1.eu/)).
 
 [![weblate translation status](https://weblate.bubu1.eu/widgets/currencies/-/multi-blue.svg "weblate translation status of currencies")](https://weblate.bubu1.eu/engage/currencies){ loading=lazy title="weblate translation status" }
+
+*[DWD]: Deutscher Wetterdienst, the German national weather agency similar to NOAA in the US
+*[TWFG]: inofficial abbreviation for Tiny Weather Forecast Germany
+*[SaaS]: Software as a Service
+*[FAQ]: Frequently asked questions
