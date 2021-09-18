@@ -12,7 +12,7 @@ description: my personal collection of useful code snippets
 !!! info ""
     Meant to be used for a quick setup of a :simpleicons-linux: `linux` dev environment for [TinyWeatherForecastGermany (TWFG)](/index.html#tinyweatherforecastgermany-twfg).
 
-```java
+```bash
 sudo apt -y install openjdk-8-jdk-headless
 
 wget "https://dl.google.com/android/repository/commandlinetools-linux-7583922_latest.zip"
@@ -37,7 +37,7 @@ sudo apt -y install gradle
 
 ### update the [cached](https://www.dezip.org/https://codeberg.org/Starfish/TinyWeatherForecastGermany/archive/master.tar.gz) tar archive
 
-1. :octicons-trash-16: **remove** cached contents -> GET request: [https://www.dezip.org/https://codeberg.org/Starfish/TinyWeatherForecastGermany/archive/master.tar.gz**?remove**](https://www.dezip.org/https://codeberg.org/Starfish/TinyWeatherForecastGermany/archive/master.tar.gz?remove)
+1. :octicons-trash-16: **remove** cached contents -> GET request: [https://www.dezip.org/https://codeberg.org/Starfish/TinyWeatherForecastGermany/archive/master.tar.gz?remove](https://www.dezip.org/https://codeberg.org/Starfish/TinyWeatherForecastGermany/archive/master.tar.gz?remove)
 
 2. :material-update: **update** contents -> GET request: <https://www.dezip.org/https://codeberg.org/Starfish/TinyWeatherForecastGermany/archive/master.tar.gz>
 
@@ -48,7 +48,7 @@ sudo apt -y install gradle
 
 ### [search](https://www.dezip.org/v1/9/https/codeberg.org/Starfish/TinyWeatherForecastGermany/archive/master.tar.gz/tinyweatherforecastgermany/) cached repository contents
 
-Visit <https://www.dezip.org/v1/9/https/codeberg.org/Starfish/TinyWeatherForecastGermany/archive/master.tar.gz/tinyweatherforecastgermany/> using your :fontawesome-brands-firefox-browser: :material-google-chrome: :material-microsoft-edge: browser of choice.
+Visit <https://www.dezip.org/v1/9/https/codeberg.org/Starfish/TinyWeatherForecastGermany/archive/master.tar.gz/tinyweatherforecastgermany/> using your :fontawesome-brands-firefox-browser: :material-google-chrome: :material-microsoft-edge: browser of choice to search the contents.
 
 !!! info ""
     Type ++f++ to **search** and :material-skip-previous: ++k++ or ++j++ :material-skip-next: to  **change** between :octicons-search-16: search results.
