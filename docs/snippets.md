@@ -33,11 +33,15 @@ sudo apt -y install gradle
 ## code search using [dezip.org](https://www.dezip.org/)
 
 !!! info ""
-    To search the contents of code repositories using :octicons-archive-16: archives containing their source code.
+    To :octicons-search-16: search the contents of :material-git: code repositories using :octicons-archive-16: archives containing their source code.
 
-### [update](https://www.dezip.org/https://codeberg.org/Starfish/TinyWeatherForecastGermany/archive/master.tar.gz) the cached tar archive
+### update the [cached](https://www.dezip.org/https://codeberg.org/Starfish/TinyWeatherForecastGermany/archive/master.tar.gz) tar archive
 
-GET request: <https://www.dezip.org/https://codeberg.org/Starfish/TinyWeatherForecastGermany/archive/master.tar.gz>
+1. :octicons-trash-16: **remove** cached contents -> GET request: [https://www.dezip.org/https://codeberg.org/Starfish/TinyWeatherForecastGermany/archive/master.tar.gz**?remove**](https://www.dezip.org/https://codeberg.org/Starfish/TinyWeatherForecastGermany/archive/master.tar.gz?remove)
+
+2. :material-update: **update** contents -> GET request: <https://www.dezip.org/https://codeberg.org/Starfish/TinyWeatherForecastGermany/archive/master.tar.gz>
+
+3. :octicons-hourglass-16: please be patient. The page will **reload** when dezip completed the :octicons-package-dependents-16: extraction of the archive's contents.
 
 !!! warning "warning"
     **Please use the `update` function responsible and if possible not more than once per day. This services operates on a :octicons-people-16: fair use policy with :fontawesome-solid-tachometer-alt: limited bandwith. Please don't make the creator turning it into a :fontawesome-solid-dollar-sign: paid service with :material-robot-off: captchas, geoblocking, etc. by wasting bandwidth. :fontawesome-solid-angry: Also [see here for more information](https://codeberg.org/Codeberg/Community/issues/379#issuecomment-237979) :octicons-link-external-16:.**
@@ -47,7 +51,7 @@ GET request: <https://www.dezip.org/https://codeberg.org/Starfish/TinyWeatherFor
 Visit <https://www.dezip.org/v1/9/https/codeberg.org/Starfish/TinyWeatherForecastGermany/archive/master.tar.gz/tinyweatherforecastgermany/> using your :fontawesome-brands-firefox-browser: :material-google-chrome: :material-microsoft-edge: browser of choice.
 
 !!! info ""
-    Type ++f++ to **search** and ++k++ or ++j++ to :material-skip-previous: **change** :material-skip-next: between :octicons-search-16: search results.
+    Type ++f++ to **search** and :material-skip-previous: ++k++ or ++j++ :material-skip-next: to  **change** between :octicons-search-16: search results.
 
 
 *[DWD]: Deutscher Wetterdienst, the German national weather agency similar to NOAA in the US
