@@ -36,8 +36,8 @@ theme:
   custom_dir: overrides
   icon:
      repo: fontawesome/brands/gitlab
-  logo: assets/images/favicon.png
-  favicon: assets/images/favicon.png
+  logo: assets/images/favicon-new.png
+  favicon: assets/images/favicon-new.png
 
 plugins:
    - search:
