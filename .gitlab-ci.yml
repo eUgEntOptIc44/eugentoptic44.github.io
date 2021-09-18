@@ -10,7 +10,6 @@ pages:
     - apt-get --quiet update --yes
     - apt-get install brotli || true
     - mkdir .public
-    - mkdir public
     - pip list
     - pip install virtualenv
     - virtualenv venv

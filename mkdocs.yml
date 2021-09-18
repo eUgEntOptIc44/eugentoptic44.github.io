@@ -36,6 +36,7 @@ theme:
   custom_dir: overrides
   icon:
      repo: fontawesome/brands/gitlab
+  logo: assets/images/favicon.png
 
 plugins:
    - search:
