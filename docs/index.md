@@ -12,7 +12,7 @@ An unordered list of open source :material-open-source-initiative: projects that
     Type ++p++ or ++comma++ to go the :material-skip-previous: **previous** page.
     Type ++n++ or ++period++ to go the **next** :material-skip-next: page.
 
-## [TinyWeatherForecastGermany (TWFG)](https://tinyweatherforecastgermanygroup.gitlab.io/index/index.html)
+## [Tiny Weather Forecast Germany (TWFG)](https://tinyweatherforecastgermanygroup.gitlab.io/index/index.html)
 
 !!! info "about"
     An android open source weather forecast app written in `java` focused on Germany using open data provided by Deutscher Wetterdienst (DWD).
@@ -34,11 +34,11 @@ An unordered list of open source :material-open-source-initiative: projects that
 !!! info "note"
     The following git repositories are updated **once daily** at 5am UTC.
 
-    Target: increased SEO-Scores, leading interested members of the public to the 'main' project at [codeberg.org](https://codeberg.org/Starfish/TinyWeatherForecastGermany/)
+    Target: increased SEO-Scores, leading interested members of the public to the 'main' project at [codeberg.org](https://codeberg.org/Starfish/TinyWeatherForecastGermany/) the home of the user and developer community of TinyWeatherForecastGermany
 
 [:material-gitlab: **GitLab** Mirror](https://gitlab.com/tinyweatherforecastgermanygroup/TinyWeatherForecastGermany)[^1]
 
-[:material-github: **GitHub** Mirror](https://github.com/twfgcicdbot/TinyWeatherForecastGermanyMirror)[^1]
+[:material-github: **GitHub** Mirror](https://github.com/tinyweatherforecastgermanygroup/TinyWeatherForecastGermany)[^1]
 
 [:material-git: **framagit** Mirror](https://framagit.org/tinyweatherforecastgermanygroup/tinyweatherforecastgermanymirror)[^1]
 
@@ -75,7 +75,7 @@ Maintainer: Tad ([@IratePorcupine](https://gitlab.com/IratePorcupine))
 * Spanish
 * Russian
 
-[^3]: My contribution :grin:
+[^3]: My contribution :fontawesome-regular-grin:
 
 ## [Currencies](https://github.com/sal0max/currencies)
 
