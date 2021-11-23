@@ -19,7 +19,7 @@ An unordered list of open source :material-open-source-initiative: projects that
 
 **Maintainer**: Pawel Dube ([@Starfish](https://codeberg.org/Starfish)) :octicons-star-16: :material-fish:
 
-[:material-git: code repository](https://codeberg.org/Starfish/TinyWeatherForecastGermany/){ .md-button }
+[:simpleicons-codeberg: code repository](https://codeberg.org/Starfish/TinyWeatherForecastGermany/){ .md-button }
 
 [:simpleicons-fdroid: F-Droid page](https://f-droid.org/packages/de.kaffeemitkoffein.tinyweatherforecastgermany){ .md-button }
 
@@ -27,14 +27,23 @@ An unordered list of open source :material-open-source-initiative: projects that
 
 [:material-home-search: searchable table of all **stations**](https://tinyweatherforecastgermanygroup.gitlab.io/index/stations.html)
 
+[:material-map-plus: OpenStreetMap based **map** visualizing all data sources used by TWFG](https://tinyweatherforecastgermanygroup.gitlab.io/index/map.html)
+
 [:material-frequently-asked-questions: list of Frequently asked questions (**FAQ**)](https://tinyweatherforecastgermanygroup.gitlab.io/index/index.html#faq)
+
+[:octicons-code-24: :material-help: javadoc **code documentation**](https://tinyweatherforecastgermanygroup.gitlab.io/twfg-javadoc/index.html)
+
+??? info "note"
+    The **javadoc** docs and **map** are both automatically updated **once daily**.
+
+    The docs also contain :fontawesome-solid-project-diagram: **UML** diagrams generated using [graphviz](https://gitlab.com/graphviz/graphviz) via [PlantUML](https://plantuml.com/) integrated in the [uml-java-doclet](https://github.com/gboersma/uml-java-doclet) by Gerald Boersma ([@gboersma](https://github.com/gboersma)).
 
 ### :octicons-mirror-24: Mirrors
 
 !!! info "note"
     The following git repositories are updated **once daily** at 5am UTC.
 
-    Target: increased SEO-Scores, leading interested members of the public to the 'main' project at [codeberg.org](https://codeberg.org/Starfish/TinyWeatherForecastGermany/) the home of the user and developer community of TinyWeatherForecastGermany
+    Target: increased SEO-Scores, leading interested members of the public to the 'main' project at [:simpleicons-codeberg: codeberg.org](https://codeberg.org/Starfish/TinyWeatherForecastGermany/) the home of the user and developer communities of TinyWeatherForecastGermany
 
 [:material-gitlab: **GitLab** Mirror](https://gitlab.com/tinyweatherforecastgermanygroup/TinyWeatherForecastGermany)[^1]
 
@@ -44,7 +53,7 @@ An unordered list of open source :material-open-source-initiative: projects that
 
 [:simpleicons-gitea: **Gitea** Mirror](https://gitea.com/tinyweatherforecastgermanygroup/TinyWeatherForecastGermanyMirror)[^1]
 
-If you'd like to add a **new** mirror repository on a hosted GitLab, GitHub Enterprise, Gitea, Gogs instance or any other git server please get in touch with me ([@eUgEntOptIc44](https://codeberg.org/eUgEntOptIc44)) :material-email:. 
+If you'd like to add a **new** mirror repository on a hosted GitLab, GitHub Enterprise, Gitea, Gogs instance or any other :fontawesome-brands-git: server please get in touch with me ([@eUgEntOptIc44](https://codeberg.org/eUgEntOptIc44)) :material-email:. 
 
 ### :material-translate: Translations
 
@@ -58,7 +67,7 @@ Translations of **TinyWeatherForecastGermany** are managed on the :simpleicons-w
 ## [Hypatia](https://gitlab.com/divested-mobile/hypatia)
 
 !!! info "about"
-    An open source android `java` virus scanner app using signatures from several open sources.
+    An open source android `java` virus scanner app using hash signatures from several open sources.
 
 Maintainer: Tad ([@IratePorcupine](https://gitlab.com/IratePorcupine))
 
