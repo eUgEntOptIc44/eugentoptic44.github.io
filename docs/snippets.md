@@ -10,10 +10,10 @@ description: my personal collection of useful code snippets
 **environment**: :simpleicons-linux: linux -> :simpleicons-gnubash: `bash`
 
 !!! info ""
-    Meant to be used for a quick setup of a :simpleicons-linux: `linux` dev environment for [TinyWeatherForecastGermany (TWFG)](/index.html#tinyweatherforecastgermany-twfg).
+    Meant to be used for a quick setup of a :simpleicons-linux: `linux` dev environment for [Tiny Weather Forecast Germany (TWFG)](/index.html#tinyweatherforecastgermany-twfg).
 
 ```bash
-sudo apt -y install openjdk-8-jdk-headless
+sudo apt -y install openjdk-11-jdk-headless
 
 wget "https://dl.google.com/android/repository/commandlinetools-linux-7583922_latest.zip"
 mkdir -p Android/Sdk

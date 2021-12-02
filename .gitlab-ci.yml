@@ -8,6 +8,7 @@ pages:
   script:
     - uname -a
     - apt-get --quiet update --yes
+    - apt-get --quiet upgrade --yes || true
     - apt-get install brotli || true
     - mkdir .public
     - pip list
@@ -16,6 +17,7 @@ pages:
     - source venv/bin/activate
     - pip install -r requirements.txt
     - pip list
+    - pip list --outdated || true
     - mkdocs build --site-dir .public
     - cp -a .public/* public
     - cp -a .public/* .
