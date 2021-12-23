@@ -35,6 +35,9 @@ pages:
     - git status || true
     - git remote add codeberg-origin "https://eUgEntOptIc44:$CODEBERGCICDPASSWORD@codeberg.org/eUgEntOptIc44/pages.git" || true
     - git push -f codeberg-origin || true
+    - git checkout -b "gh-pages" || true
+    - git remote add github-origin "https://$TWFGCICDBOTPASSWORDGITHUB@github.com/eUgEntOptIc44/eUgEntOptIc44.gitlab.io" || true
+    - git push github-origin
   artifacts:
     paths:
       - public
